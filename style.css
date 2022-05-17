@@ -1,0 +1,65 @@
+p{
+  color:cadetblue;
+}
+
+*{
+  box-sizing:border-box;
+}
+
+body{
+  background-color:darkseagreen;
+}
+
+.topnav{
+  background-color:beige;
+  overflow:hidden;
+  margin: 2;
+  width: 1350px; 
+}
+
+.topnav a{
+  color: darkseagreen;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+}
+.botdiv{
+  background-color:rgb(206, 193, 156);
+  overflow:hidden;   
+}
+
+.botdiv a:{
+  color:brown;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14x 16px;
+}
+
+.topnav a:hover{
+  background-color: darkgray;
+  color:burlywood;
+}
+
+.header{
+  background-color:rgb(206, 193, 156);
+  padding: 20px;
+  text-align: center;
+  width: 1350px;
+}
+/*creates 3equal colums that float next to eachother*/
+.column{
+  float:left;
+  width:33.33%;
+  padding:15px;
+}
+head{
+  background-color:#E4CFB4;
+}
+div {
+  width: 200px;
+  padding: 10px;
+  margin: 0;
+}
+/* border: 5px solid darkgreen; */

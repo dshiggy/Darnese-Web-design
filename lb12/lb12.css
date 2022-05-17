@@ -1,0 +1,69 @@
+/*The container < div > - needed to position the drop down content*/
+
+.dropDown{
+  position: relative;
+  display: inline-block;
+}
+/*dropdown content (hidden by default)*/
+.dropDownContent{
+  display: none;
+  position: absolute;
+  background-color:ghostwhite; 
+  min-width: 150px;
+  box-shadow: 0px 8px 16px 0px rgba(245, 244, 183, 0.9);
+  z-index:1;
+  border: none;
+}
+/* this code is the styling for the drop down content that will appear when the mouse is over a section*/
+.dropDown:hover .dropDownContent{
+  display: block;
+}
+/*Style The Dropdown Button */
+ .drpMenu{
+   background-color:lavenderblush;
+   color:darkgoldenrod;
+   padding: 16px;
+   font-size: 16px;
+   border: none;
+   cursor: pointer;
+}
+/* Change the background color of the drop down button when dropdown is shown. */
+
+.dropdown:hover.drpMenu{
+ background-color:darkslategrey;
+ color:beige;
+}
+/* style of the " mouse over me " portion of the lab*/
+.dropdown a{
+  padding: 12px 16px;
+  text-decoration: none;
+  display: none;
+}
+/* This part of the CSS identifies the hover box*/
+.dropdown:hover a{
+  display:block;
+  background-color:beige; color:darkslategrey;
+  border: 0.1px solid white
+}
+/*This css is responsible for the words located in the hover*/
+.dropdown:hover a:hover{
+  color: darkslategrey;
+  background-color:bisque;
+  border: 1px solid darkseagreen;
+  padding: 12px 16px;
+}
+/* This css part gives a pretty border for the images*/
+.dropdown img{
+  border: 10px dotted olivedrab;
+  display: inline-block;
+}
+/* this Css part gives a tittle to the picture*/
+.caption{
+  display: none;
+}
+/* This CSS part allows for an immage to appear when the mouse hovers*/
+.dropDown:hover img:hover .caption{
+display: block;
+color:darkcyan;
+background-color:azure;
+}

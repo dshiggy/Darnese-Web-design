@@ -1,0 +1,116 @@
+<!--Doctypehtml-->
+
+<html>
+<head>
+  <a href="/index.html">Home </a>
+   <link rel="stylesheet" href="../style.css">
+  <center>
+  <title> Lab 10 Internal CSS </title>
+    <style>
+      /*the * works as universal selecter for CSS*/
+      *{
+        box-sizing:border-box;
+      }
+
+      /* A CSS selector selects the HTML element(s) you wnat to style. Simple selectors (select elements based on name, id, class)
+      */
+      /*any HTML tag can be a selector. For example */
+      body{
+        background-color: beige:
+      }
+      /*The class selector selects HTML elements with a specific class attribute. To select elements with a specific class; write (.) character, followed the class name. */
+      .header{
+      }
+
+      /* The id selector uses the id atribute of an HTML element to select a specific element. The id of n element is unique within a page, so the id selector is used to sleect one unique element!. Ro select an element with a specific id write hash (#) character, followed by the id of the element Example The CSS rule below will be applied to the HTML element with id+="para1":*/
+      #demoBox {
+      text-align: center;
+      color:red;
+      }
+      /* The grouping selector selects ll the HTML elements with the same style definitions. Look at the following CSS code (the h1, h2, and p elements have the same style definitions). It will be better to group the selcetors, to minimize the code. To group selectors, separate each selector with comma*/
+
+      p,h1,h3{
+        color:aliceblue;
+      }
+
+      /* A combinator is something that explains the relationship between the selectors. A CSS selector can contain more than one simple selector. Between a simple selector we can include a combinator. There are four different combinators in CSS:
+      denecdant selector (space)
+      child selector(>)
+      adjacent sibling selector (+)
+      general sibling selector (~) */
+      .header h3{color:green;}
+
+      a[target] {
+        background-color: brown;
+      }
+      
+     .botdiv #lname{ color:beige;}
+    
+      </style>
+  </head>
+<body>
+  <img src="../lb10/darnesejoyner.png" alt="banner" width="100%" height="250px">
+   <div class="topnav">
+    <table style="color:#DBFFA8" border="5">
+    <tr>
+      <td>
+<a href="../DarneseJoyner/lab1.html">click here for lab 1</a>
+</td>
+<td>
+<a href="../DarneseJoyner/lab2.html">Lab 2</a>
+</td>
+<a href="../DarneseJoyner/lab3.html">Lab 3</a>
+<td>
+<a href="../DarneseJoyner/lab4.html">Lab 4</a>
+</td>
+<td>
+<a href="../DarneseJoyner/lab5.html">Lab 5</a>
+</td>
+<td>
+<a href="../DarneseJoyner/lab6.html">Lab 6</a>
+</td>
+<td>
+<a href="../DarneseJoyner/lab7myfavoritemovies.html"> My favorite movies project</a>
+</td>
+<td>
+<a href="../lab8/lab8.html">Lab 8 2022</a>
+</td>
+<a href="../lab9/lab9.html">Lab 9 2022</a>
+<td>
+<a href="../lb10/lb10.html">Lab 10 2022</a>
+</td>
+<td>
+<a href="../lb11/lb11.html">Lab 11 2022</a>
+</td>
+<td>
+<a href="../lb12/lb12.html">Lab 12 2022</a>
+</td>
+<td>
+<a href="../lb13/lb13.html">Lab 13 2022</a>
+</td>
+<td>
+<a href="../lb14/lb14.html">Lab 14 2022</a>
+</td>
+<td>
+<a href="../lb15/lb15.html">Lab 15 2022</a>
+</td>
+<a href="../lb16/lb16.html">Lab 16 2022</a>
+<a href="../lb17/lb17.html">Lab 17 2022</a>
+<a href="../lb18/lb18.html">Lab 18 2022</a>
+<a href="../lb19/lb19.html">Lab 19 2022</a>
+<a href="../lb20/lb20.html">Lab 20 2022</a>
+  </div>
+
+   <h1>TAEHS</h1>
+  <h2>Web development</h2>
+  <h3>10Th Grade</h3>
+  <h4> 2/9/22 </h4>
+  <h5>Darnese Joyner</h5>
+  <p>Explination of procedure CSS </p>
+  <div class="botdiv">
+  <h1 id="lname"> Darnese Joyner </h1>
+  <h1 id="lname"> Last Name </h1>
+  <h1> 2/8/22 </h1>
+  </div>
+</body>
+</html>

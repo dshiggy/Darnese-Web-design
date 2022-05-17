@@ -1,0 +1,42 @@
+*{
+  font-family: Verdana, sans-serif; 
+}
+
+
+.topnav a{
+  color: navy;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+ font-family: Verdana, sans-serif;
+  font-style: bold;
+}
+.topnav{
+  background-color:beige;
+  overflow:hidden;
+  margin: 2;
+  width: 1350px; 
+}
+#box{
+  background-color: #C2BC88;
+  border: solid #EAF5C1; 3px;
+  width: 175px;
+  height: 175px;
+  position: relative;
+  left: 50px;
+}
+body{
+  background-color: #CADEBB;
+}
+
+button{
+  color:#6B7D6E;
+  border: dashed;
+  background-color: #D3F5E2;
+  position: relative;
+  left: 100px;
+}
+button:hover{
+  
+}
